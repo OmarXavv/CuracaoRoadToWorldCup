@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --blue:       #003DA5;
+  --blue-light: #2B7FCC;
+  --yellow:     #FFD100;
+  --turquoise:  #00B5B0;
+  --white:      #FFFFFF;
+  --black:      #0A0A0A;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  line-height: 0.95;
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.65;
+}

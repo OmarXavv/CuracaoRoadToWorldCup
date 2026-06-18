@@ -1,0 +1,75 @@
+.where {
+  background-color: var(--white);
+  color: var(--black);
+  padding: 2rem;
+  width: 100VW;
+  height: 120vh;
+}
+
+.where__inner {
+  max-width: 80vw;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.where__title {
+  font-size: clamp(60px, 11vw, 100px);
+  color: var(--blue);
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+}
+
+.where__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.where__intro {
+  font-size: clamp(18px, 2.5vw, 32px);
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+.where__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+.where__list li {
+  font-size: clamp(14px, 1.5vw, 22px);
+  color: #333;
+  display: flex;
+  gap: 12px;
+}
+
+.where__label {
+  font-weight: 600;
+  color: var(--blue);
+  min-width: 110px;
+  flex-shrink: 0;
+}
+
+.where__outro {
+  font-size: clamp(14px, 1.5vw, 20px);
+  color: #555;
+  font-weight: 1000;
+}
+
+@media (max-width: 768px) {
+  .where__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.where__map-img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}

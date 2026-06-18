@@ -1,0 +1,103 @@
+.history {
+  padding-top: 5rem;
+  padding-bottom: 12rem;
+  background: linear-gradient(to bottom, var(--blue) 85%, transparent);
+}
+
+.history__slide {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 30vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.history__content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 3rem;
+  width: 79vw;
+  height: 33.33vh;
+}
+
+.history__number {
+  margin-top: 3rem;
+}
+
+.history__text {
+  color: rgba(255, 255, 255, 0.85);
+  width: 90%;
+  margin-top: -1.2rem
+}
+
+.history__bottom {
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+  margin-top: -4rem;
+}
+
+.history__label {
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--yellow);
+  margin-bottom: -3rem;
+}
+
+@media (max-width: 768px) {
+  .history__slide {
+    grid-template-columns: 1fr;
+  }
+}
+
+.history__image-wrap {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history__image {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  display: flex;
+  justify-self: center;
+  
+}
+
+.history__content {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.history__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.history__label {
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--yellow);
+}
+
+.history__number {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 100px;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.12);
+}
+
+.history__text {
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.75;
+}
