@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import starsIcon from "../assets/stars.png"
+import starsIcon from "../assets/Stars.png"
 
 const links = [
   { label: "Where is Curaçao?", href: "#where" },
