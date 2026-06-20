@@ -1,4 +1,6 @@
+import { useEffect } from "react"
 import "./TheSquad.css"
+import { animateOnScroll } from "../animations/gsapAnimations"
 
 const coach = {
   name: "Dick Advocaat",
@@ -75,6 +77,13 @@ function Group({ title, players }) {
 }
 
 export default function TheSquad() {
+  useEffect(() => {
+    animateOnScroll(".squad__coach-wrap .card", ".squad__coach-wrap")
+    animateOnScroll(".squad__group:nth-of-type(1) .card", ".squad__group:nth-of-type(1)")
+    animateOnScroll(".squad__group:nth-of-type(2) .card", ".squad__group:nth-of-type(2)")
+    animateOnScroll(".squad__group:nth-of-type(3) .card", ".squad__group:nth-of-type(3)")
+  }, [])
+
   return (
     <section className="squad" id="squad">
       <div className="squad__inner">

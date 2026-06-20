@@ -31,11 +31,12 @@
 .nav__link {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.05rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--white);
   transition: color 0.7s, font-size 0.3s;
+  font-weight: 700;
 }
 
 .nav__link:hover {
