@@ -1,7 +1,7 @@
 import "./TheSquad.css"
 
 const coach = {
-  name: "Fred Rutten",
+  name: "Dick Advocaat",
   role: "Head Coach",
   club: "–",
   image: "/assets/players/coach.jpg",

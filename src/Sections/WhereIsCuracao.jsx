@@ -24,7 +24,7 @@ export default function WhereIsCuracao() {
               <li><span className="where__label">Highest point</span>Christoffelberg at 372 meters</li>
             </ul>
             <p className="where__outro">
-              Culturally, Curaçao is one of the most diverse places on Earth — home to over 50 nationalities, with influences from Africa, Europe, South America, and beyond, all reflected in the colorful buildings of the UNESCO World Heritage capital Willemstad.
+              Culturally, Curaçao is one of the most diverse places on Earth home to over 50 nationalities, with influences from Africa, Europe, South America, and beyond, all reflected in the colorful buildings of the UNESCO World Heritage capital Willemstad.
             </p>
           </div>
         </div>

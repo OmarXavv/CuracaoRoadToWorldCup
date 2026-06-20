@@ -1,0 +1,29 @@
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-color: rgb(0, 43, 127);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.intro__stars {
+  position: absolute;
+  top: 20%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  transform-origin: top left;
+}
+
+.intro__stripe {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  height: 11%;
+  background-color: var(--yellow);
+  transform-origin: center;
+}
