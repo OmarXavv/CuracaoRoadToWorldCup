@@ -14,7 +14,7 @@
   top: 20%;
   left: 12%;
   transform: translate(-50%, -50%);
-  width: 25vw;
+  width: clamp(140px, 25vw, 320px);
   transform-origin: top left;
 }
 

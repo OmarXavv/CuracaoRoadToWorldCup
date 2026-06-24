@@ -46,9 +46,47 @@
   margin-bottom: -3rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .history__slide {
     grid-template-columns: 1fr;
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  .history__content {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 1.5rem;
+  }
+
+  .history__number {
+    margin-top: 1rem;
+    font-size: 60px;
+  }
+
+  .history__text {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 15px;
+  }
+
+  .history__image-wrap {
+    height: 220px;
+  }
+
+  .history__image {
+    width: 60%;
+    height: auto;
+  }
+
+  .history__bottom {
+    justify-content: flex-start;
+    margin-top: 1rem;
+  }
+
+  .history__label {
+    margin-bottom: 0;
   }
 }
 

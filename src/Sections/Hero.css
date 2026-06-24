@@ -33,7 +33,7 @@
   padding: 0 1.5rem;
   max-width: 1200px;
   margin-right: 4%;
-  margin-top: 17%
+  margin-top: 17%;
 }
 
 .hero__badge {
@@ -43,20 +43,20 @@
   border: 1px solid var(--yellow);
   border-radius: 999px;
   color: var(--yellow);
-  font-size: 12px;
+  font-size: clamp(10px, 1.2vw, 12px);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-right: 3%;
 }
 
 .hero__heading {
-  font-size: clamp(100px, 20vw, 200px);
+  font-size: clamp(48px, 14vw, 200px);
   color: var(--white);
   margin-bottom: 0.5rem;
 }
 
 .hero__sub {
-  font-size: clamp(15px, 2vw, 19px);
+  font-size: clamp(14px, 2vw, 19px);
   color: rgba(255, 255, 255, 0.846);
   max-width: 520px;
   margin: 0 0 0 auto;
@@ -88,4 +88,47 @@
   height: 48px;
   background-color: var(--yellow);
   opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .hero__content {
+    margin-top: 22%;
+    margin-right: 0;
+    padding: 0 1.2rem;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .hero__badge,
+  .hero__sub {
+    margin-right: 0;
+  }
+
+  .hero__sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    justify-content: center;
+  }
+
+  .hero__content {
+    margin-top: 0;
+  }
+
+  .hero__heading {
+    font-size: clamp(40px, 16vw, 80px);
+  }
+
+  .hero__sub {
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  .hero__scroll {
+    bottom: 1.5rem;
+  }
 }

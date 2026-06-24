@@ -44,3 +44,27 @@
   font-size: 1rem;;
   transition: font-size 0.3s;
 }
+
+@media (max-width: 900px) {
+  .nav {
+    padding: 1rem 1.2rem;
+  }
+
+  .nav__stars {
+    height: 3.2rem;
+  }
+
+  .nav__links {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .nav__link {
+    font-size: 0.7rem;
+  }
+
+  .nav__link:hover {
+    font-size: 0.68rem;
+  }
+}

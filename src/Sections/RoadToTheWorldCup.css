@@ -81,6 +81,35 @@
   gap: 1rem;
 }
 
+@media (max-width: 900px) {
+  .road__inner {
+    max-width: 92vw;
+  }
+
+  .road__match {
+    grid-template-columns: 70px 1fr auto;
+    gap: 8px;
+  }
+
+  .road__opponent {
+    font-size: 14px;
+  }
+
+  .road__stats {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  .road__stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .road__stat-value {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .road__stats-grid {
     grid-template-columns: repeat(2, 1fr);

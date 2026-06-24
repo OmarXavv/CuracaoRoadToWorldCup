@@ -80,14 +80,41 @@
   letter-spacing: 0.08em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
+  .where__title {
+    max-width: 90vw;
+    font-size: clamp(40px, 12vw, 70px);
+  }
+
   .where__layout {
+    max-width: 90vw;
     grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .where__sticky {
-    height: 50vh;
-    position: sticky;
-    top: 0;
+    position: relative;
+    height: auto;
+    top: auto;
+    padding: 2rem 0;
+  }
+
+  .where__slides {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .where__slide {
+    min-height: auto;
+    opacity: 1;
+    padding: 2rem 0;
+  }
+
+  .where__text {
+    font-size: clamp(18px, 5vw, 26px);
+  }
+
+  .where__list li {
+    font-size: clamp(15px, 4vw, 20px);
   }
 }
